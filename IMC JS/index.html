@@ -1,0 +1,52 @@
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tarea IMC</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="JS.js"></script>
+    </head>
+    <body>
+        <h1>Calculadora IMC</h1>
+        <div id="saludo"></div>
+        <form onsubmit="return false" action="">
+            <input type="text" id="altura"\>
+            <input type="submit" onclick="Altura()" \>
+        </form>
+        <div id="TuPeso"></div>
+        <form onsubmit ="return false" action="">
+            <input type="text" id="peso" \>
+            <input type="submit" onclick="Peso()"\>
+        </form>
+    </body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tarea IMC</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="JS.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1> Calculadora de IMC </h1> 
+        <p class="a">Ingrese su peso y altura para poder calcular su Indice de Masa Corporal</p>                  
+        <div class="b">
+        <p>
+            Ingrese su peso:
+            <input type="text" id="peso">
+        </p>        
+        <p>
+            Ingrese su altura:
+            <input type="text" id="altura">
+        </p>
+        <p id="IMC">Tu Indice de Masa Corporal es:</p>
+    </div>
+    <div class="c">
+    <input type="button" class="b" onclick="calculadora()" value="Calcular">
+    </div>
+        <p id="output" ></p>
+    </body>
+</html>
